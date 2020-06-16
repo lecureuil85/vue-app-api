@@ -1,0 +1,37 @@
+body
+{
+    background-image: url("img/992695.png");
+}
+
+img
+{
+    width: 300px;
+}
+
+a
+{
+    background-image: url("img/boutons.png");
+    background-size: 300px;
+    background-position: center;
+    padding: 20px 40px 20px 40px;
+    margin: 0 5px 0 0px;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-family: serif;
+}
+
+.menu
+{
+    text-align: center;
+}
+
+.stats
+{
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 50px;
+    width: 50%;
+    background-color: rgba(194, 66, 66, 0.753);
+    border: solid 2px black;
+}

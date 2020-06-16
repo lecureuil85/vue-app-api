@@ -24,14 +24,8 @@
         },
         mounted () {
             axios
-            .get('https://public-api.tracker.gg/v2/apex/standard/profile/origin/brandish-sama',
-            {
-        headers: {
-            'TRN-API-KEY': '26762c75-515c-41a4-a655-f1adb4dab739'
-        }
-        })
-        .then(response => (this.info = response))
-        .catch(error => console.log(error))
+            .get('GET https://public-api.tracker.gg/v2/apex/standard/profile/origin/brandish-sama}')
+            .then(response => (this.info = response))
         }
         })
         </script>
